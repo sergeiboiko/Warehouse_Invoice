@@ -31,7 +31,6 @@ namespace Invoice
                 dataTable.Load(npgsqlDataReader);
                 dataGridView2.DataSource = dataTable;
 
-
                 //dataGridView2.Columns["Name"].Width = 300;
             }
             npgsqlCommand.Dispose();
